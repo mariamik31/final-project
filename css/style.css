@@ -5,12 +5,16 @@ body {
 }
 
 nav {
+    position: fixed;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     width: 1321px;
-    height: 55px;
-    margin: 50px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 0px;
+    background-color: rgb(235, 235, 235);
+
 }
 
 .button {
@@ -25,7 +29,7 @@ nav {
 
 .rightbuttons {
     display: flex;
-    padding-left: 450px;
+    padding-left: 438px;
 }
 
 .signupbutton {
@@ -64,6 +68,8 @@ nav {
     align-items: center;
     height: 339px;
     width: 965px;
+    margin-top: 150px;
+
 }
 
 .box2 {
@@ -137,13 +143,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 70px;
     width: 1279px;
     height: 116px;
     border-radius: 8px;
     background-color: white;
-    
 }
 
 #image1{
@@ -196,9 +201,10 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 1279px;
     height: 109px;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .conteiner4 {
@@ -208,7 +214,7 @@ nav {
     margin-top: 80px;
     margin-left: 55px;
     width: 1279px;
-    height: 935px;
+    height: 811px;
 }
 
 .boxes {
@@ -246,3 +252,150 @@ nav {
 }
 
 
+.conteiner6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 1279px;  
+    min-height: 1880px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.imgbox {
+    width: 549.5px;
+    height: 519px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.minbox {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.mintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 34px;
+    border: solid rgb(235, 235, 235);
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.mintext2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 34px;
+    border: solid rgb(235, 235, 235);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.mintext3 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    margin-left: 171px;
+}
+
+.con6text {
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 24px;
+
+}
+
+.con6text2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.getitnowbutton {
+    width: 549.5px;
+    height: 49px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+    border: 0px;
+    margin-top: 40px;
+
+}
+
+.conteiner5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 260px 260px;
+    width: 1279px;
+    height: 520px;
+    max-width: 1279px;  
+    min-height: 560px;
+    margin: 0 auto;
+}
+
+.storybox {
+    width: 629.5px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid rgb(235, 235, 235);
+    margin-top: 30px;
+
+
+}
+
+.Story {
+    display: flex;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 40px;
+    color: rgb(76, 76, 77);
+}
+
+.imgbuttonbox {
+    display: flex;
+    align-items: center;
+    width: 629.5px;
+    height: 98px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    border-top: solid rgb(235, 235, 235);
+
+}
+
+.storybutton {
+    width: 137px;
+    height: 49px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: rgb(235, 235, 235);
+    border: 0px;
+    border-radius: 6px;
+    margin: 40px;
+    font-size: 14px;
+}
+
+.sbox {
+    display: flex;
+    width: 412.5px;
+    height: 50px;
+    margin: 40px;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
