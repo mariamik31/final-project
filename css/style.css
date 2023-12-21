@@ -399,3 +399,75 @@ nav {
     font-size: 16px;
     margin-left: 20px;
 }
+
+.conteiner7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1279px;
+    height: 174px;
+    background-color: white;
+    max-width: 1279px;  
+    min-height: 179px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.fa-solid {
+    grid-area: 1;
+    align-content: space-evenly;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 10px;
+
+
+}
+
+.button7 {
+   grid-column: 3;
+   display: block;
+   margin-top: 10px;
+   border: 0px;
+   background-color: white;
+   cursor: pointer;
+   font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.button7 :hover {
+    color: brown;
+}
+
+.button8 {
+   grid-column: 4;
+   display: block;
+   margin-top: 10px;
+   border: 0px;
+   background-color: white;
+   cursor: pointer;
+   font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.button8 :hover {
+    color: brown;
+}
+
+h4, h5, h6 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.fa-brands {
+    grid-row: 5;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    color: rgb(11, 63, 167);
+}
