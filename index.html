@@ -13,42 +13,45 @@
 <body>
     <nav >
        <img src="img/Logo.png" id="logo" alt=Logo style="width: 54px; height: 54px;">
+     
+   <a href="index.html">
+        <button class="navbutton">Home</button>
+   </a>
+   <a href="courses.html">
+        <button class="navbutton">Courses</button>
+   </a>
+   <a href="about.html">
+        <button class="navbutton">About Us</button>
+   </a>
+   <a href="pricing.html">
+        <button class="navbutton">Pricing</button>
+   </a>
+   <a href="contact.html"> 
+        <button class="navbutton">Contact</button> 
+   </a>   
+
+    <div class="rightbuttons">
+        <div>
+             <a href="signup.html">
+             <button class="signupbutton">Sign Up</button>
+             </a>
+        </div>
+        <div>
+             <a href="login.html">
+             <button class="loginbutton">Login</button>
+             </a>
+        </div>
+   </div>
+</nav>  
        
-       <a href="index.html">
-            <button class="button">Home</button>
-       </a>
-       <a href="courses.html">
-            <button class="button">Courses</button>
-       </a>
-       <a href="about.html">
-            <button class="button">About Us</button>
-       </a>
-       <a href="pricing.html">
-            <button class="button">Pricing</button>
-       </a>
-       <a href="contact.html"> 
-            <button class="button">Contact</button> 
-       </a>       
-        <div class="rightbuttons">
-            <div>
-                 <a href="signup.html">
-                 <button class="signupbutton">Sign Up</button>
-                 </a>
-            </div>
-            <div>
-                 <a href="login.html">
-                 <button class="loginbutton">Login</button>
-                 </a>
-            </div>
-       </div>
-    </nav>
+    </nav> 
 
 <div class="conteiner">
     <div class="box">          
         <div class="box2">
             <img src="img/Icon Container.png">
-            <h1 id="orange">Unlock</h1>
-            <h2 id="black">our Creative Potential</h2>
+            <h1 id="orangetext">Unlock</h1>
+            <h2 id="blacktext">our Creative Potential</h2>
          </div>
 
          <div class="text">
@@ -84,8 +87,10 @@
 
 </div>
 
-<img id="image1"
+<div id="img">
+<img 
 src="img/Container3.png" style="width: 1280px; height: 649px;">
+</div>
 
 <div class="conteiner3">
      <div class="box3">
@@ -102,37 +107,37 @@ src="img/Container3.png" style="width: 1280px; height: 649px;">
         <p class="number">01</p>
         <p class="boxo1text"> Flexible Learning Schedule</p>
         <p class="boxo1text2">Fit your coursework around your existing commitments and obligations.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow" ><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
     <div class="boxes">
         <p class="number">02</p>
         <p class="boxo1text"> Expert Instruction</p>
         <p class="boxo1text2">Learn from industry experts who have hands-on experience in design and development.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
     <div class="boxes">
         <p class="number">03</p>
         <p class="boxo1text">Diverse Course Offerings</p>
         <p class="boxo1text2">Explore a wide range of design and development courses covering various topics.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
     <div class="boxes">
         <p class="number">04</p>
         <p class="boxo1text">Updated Curriculum</p>
         <p class="boxo1text2">Access courses with up-to-date content reflecting the latest trends and industry practices.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
     <div class="boxes">
         <p class="number">05</p>
         <p class="boxo1text">Practical Projects and Assignments</p>
         <p class="boxo1text2">Develop a portfolio showcasing your skills and abilities to potential employers.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
     <div class="boxes">
         <p class="number">06</p>
         <p class="boxo1text">Interactive Learning Environment</p>
         <p class="boxo1text2">Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.</p>
-        <a href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></i></a>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style="color: #ff9508;"></i></a>
     </div>
 </div>
 
@@ -276,6 +281,45 @@ src="img/Container3.png" style="width: 1280px; height: 649px;">
      </div>
 </div>
 
+<div class="conteinerform">
+
+
+    <h1 class="con-us">Contact us</h1>
+    
+    <div class="input">  
+         <label for="firstname">First name</label>
+         <input form="text" class="border" name="firstname" >
+    </div>     
+        
+    <div class="input">
+        <label for="lastname">Last Name</label>
+        <input type="text" class="border"  name="lastname" > 
+    </div>
+    
+    <div class="input">
+        <label for="mail">Mail</label>
+        <input type="text" class="border" name="mail">
+    </div>
+        
+    <div>
+        <label for="gender"> Female </label>
+        <input type="radio"  name="gender">
+     
+        <label for="gender">Male </label>
+        <input type="radio"  name="gender">
+    </div>
+    
+    <div class="message">
+        <label for="message">Message</label>
+        <input type="text" id="m" name="message">
+    </div>
+    
+    <div>
+        <button class="contactbutton">submit</button>
+    </div>
+</div>
+        
+
 <div class="conteiner7">
      <div class="contact">
         <ul>
@@ -283,17 +327,18 @@ src="img/Container3.png" style="width: 1280px; height: 649px;">
         <li><i class="fa-solid fa-envelope"></i> hello@skillbridge.com</li>
         <li> <i class="fa-solid fa-phone"></i>+91 91813 23 2309 </li>
         <li><i class="fa-solid fa-location-dot"></i>Somewhere in the World</li>
-        </ul>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2977.5616021802225!2d44.74927007543777!3d41.72997797467613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDQzJzQ3LjkiTiA0NMKwNDUnMDYuNiJF!5e0!3m2!1sen!2sge!4v1703377377865!5m2!1sen!2sge" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </ul>
      </div>
-     <div class="button7">
+
+     <div class="home">
        <h4>Home</h4>
-       <button class="button7" >Benefits</button>
+       <button class="button7">Benefits</button>
        <button class="button7">Our Courses</button> 
        <button class="button7">Our Testimonials</button> 
        <button class="button7">Our FAQ</button>
-     </div>
+    </div>
 
-     <div class="button8">
+     <div class="aboutus">
         <h5>About Us</h5>
         <button class="button8" >Company</button>
         <button class="button8">Achievements</button>
@@ -305,11 +350,9 @@ src="img/Container3.png" style="width: 1280px; height: 649px;">
         <i class="fa-brands fa-twitter fa-2xl"></i>
         <i class="fa-brands fa-linkedin fa-2xl"></i>
     </div>
-
-
-
-
 </div>
+
+
 
 
 </body>
